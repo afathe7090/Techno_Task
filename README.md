@@ -30,5 +30,5 @@ This is a task for Technopolitan Company that create simple screen to present li
   
   
  #  Movies Design  
- ![Screen Shot 2023-02-05 at 9 57 42 PM](https://user-images.githubusercontent.com/76500072/216841788-280ab4bd-7539-4c88-95c8-73b12ecff62a.png)
+ ![Screen Shot 2023-02-05 at 9 57 42 PM](https://user-images.githubusercontent.com/76500072/216841788-280ab4bd-7539-4c88-95c8-73b12ecff62a.png)![Screen Shot 2023-02-05 at 9 57 42 PM](https://user-images.githubusercontent.com/76500072/216841788-280ab4bd-7539-4c88-95c8-73b12ecff62a.png)
  
