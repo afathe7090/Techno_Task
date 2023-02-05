@@ -30,7 +30,7 @@ This is a task for Technopolitan Company that create simple screen to present li
   
   
  #  Movies Design  
- 
+ <img src="https://user-images.githubusercontent.com/76500072/216841788-280ab4bd-7539-4c88-95c8-73b12ecff62a.png" width=50% height=50%>
 (https://user-images.githubusercontent.com/76500072/216841788-280ab4bd-7539-4c88-95c8-73b12ecff62a.png | width=100) 
 (https://user-images.githubusercontent.com/76500072/216841792-d5fb93be-e167-4a72-9b33-d79c90bb0c2a.png | width=100)
  
