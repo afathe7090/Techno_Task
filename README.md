@@ -31,7 +31,7 @@ This is a task for Technopolitan Company that create simple screen to present li
   
  #  Movies Design  
  
-(![Screen Shot 2023-02-05 at 9 57 42 PM](https://user-images.githubusercontent.com/76500072/216841788-280ab4bd-7539-4c88-95c8-73b12ecff62a.png) | width=100) (![Screen Shot 2023-02-05 at 9 57 49 PM](https://user-images.githubusercontent.com/76500072/216841792-d5fb93be-e167-4a72-9b33-d79c90bb0c2a.png) | width=100)
+![Screen Shot 2023-02-05 at 9 57 42 PM](https://user-images.githubusercontent.com/76500072/216841788-280ab4bd-7539-4c88-95c8-73b12ecff62a.png | width=100) ![Screen Shot 2023-02-05 at 9 57 49 PM](https://user-images.githubusercontent.com/76500072/216841792-d5fb93be-e167-4a72-9b33-d79c90bb0c2a.png | width=100)
  
  
  
