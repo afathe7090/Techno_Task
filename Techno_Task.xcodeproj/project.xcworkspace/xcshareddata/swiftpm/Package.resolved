@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "afnetwork",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/afathe7090/AFNetwork.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a68731980bea38634e766263a7d1e96bcd79cae8"
+      }
+    }
+  ],
+  "version" : 2
+}
