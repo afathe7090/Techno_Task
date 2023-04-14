@@ -33,7 +33,18 @@
 		74AC3D87298FED070081615B /* SessionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3D86298FED070081615B /* SessionImage.swift */; };
 		74AC3D89298FED4D0081615B /* SesstionNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3D88298FED4D0081615B /* SesstionNetwork.swift */; };
 		74AC3D8C298FEEA10081615B /* MovieEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3D8B298FEEA10081615B /* MovieEndpoint.swift */; };
+		74E43AC929E98B30000919DB /* Techno_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E43AC829E98B30000919DB /* Techno_TaskTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E43ACA29E98B30000919DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AC3D29298FD9610081615B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AC3D30298FD9610081615B;
+			remoteInfo = Techno_Task;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		74AC3D31298FD9610081615B /* Techno_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techno_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +74,8 @@
 		74AC3D86298FED070081615B /* SessionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionImage.swift; sourceTree = "<group>"; };
 		74AC3D88298FED4D0081615B /* SesstionNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesstionNetwork.swift; sourceTree = "<group>"; };
 		74AC3D8B298FEEA10081615B /* MovieEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEndpoint.swift; sourceTree = "<group>"; };
+		74E43AC629E98B30000919DB /* Techno_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Techno_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E43AC829E98B30000919DB /* Techno_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Techno_TaskTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74E43AC329E98B30000919DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				74AC3D33298FD9610081615B /* Techno_Task */,
+				74E43AC729E98B30000919DB /* Techno_TaskTests */,
 				74AC3D32298FD9610081615B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				74AC3D31298FD9610081615B /* Techno_Task.app */,
+				74E43AC629E98B30000919DB /* Techno_TaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +332,14 @@
 			path = Endpoint;
 			sourceTree = "<group>";
 		};
+		74E43AC729E98B30000919DB /* Techno_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				74E43AC829E98B30000919DB /* Techno_TaskTests.swift */,
+			);
+			path = Techno_TaskTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,6 +363,24 @@
 			productReference = 74AC3D31298FD9610081615B /* Techno_Task.app */;
 			productType = "com.apple.product-type.application";
 		};
+		74E43AC529E98B30000919DB /* Techno_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E43ACE29E98B30000919DB /* Build configuration list for PBXNativeTarget "Techno_TaskTests" */;
+			buildPhases = (
+				74E43AC229E98B30000919DB /* Sources */,
+				74E43AC329E98B30000919DB /* Frameworks */,
+				74E43AC429E98B30000919DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E43ACB29E98B30000919DB /* PBXTargetDependency */,
+			);
+			name = Techno_TaskTests;
+			productName = Techno_TaskTests;
+			productReference = 74E43AC629E98B30000919DB /* Techno_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,6 +393,10 @@
 				TargetAttributes = {
 					74AC3D30298FD9610081615B = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					74E43AC529E98B30000919DB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 74AC3D30298FD9610081615B;
 					};
 				};
 			};
@@ -365,6 +417,7 @@
 			projectRoot = "";
 			targets = (
 				74AC3D30298FD9610081615B /* Techno_Task */,
+				74E43AC529E98B30000919DB /* Techno_TaskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -378,6 +431,13 @@
 				74AC3D41298FD9630081615B /* LaunchScreen.storyboard in Resources */,
 				74AC3D6B298FDB540081615B /* MoviesCell.xib in Resources */,
 				74AC3D3E298FD9630081615B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E43AC429E98B30000919DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +472,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		74E43AC229E98B30000919DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E43AC929E98B30000919DB /* Techno_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E43ACB29E98B30000919DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AC3D30298FD9610081615B /* Techno_Task */;
+			targetProxy = 74E43ACA29E98B30000919DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		74AC3D3F298FD9630081615B /* LaunchScreen.storyboard */ = {
@@ -592,6 +668,42 @@
 			};
 			name = Release;
 		};
+		74E43ACC29E98B30000919DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4XXQXQMM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afate7090.Techno-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techno_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Techno_Task";
+			};
+			name = Debug;
+		};
+		74E43ACD29E98B30000919DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4XXQXQMM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afate7090.Techno-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techno_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Techno_Task";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -609,6 +721,15 @@
 			buildConfigurations = (
 				74AC3D46298FD9630081615B /* Debug */,
 				74AC3D47298FD9630081615B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E43ACE29E98B30000919DB /* Build configuration list for PBXNativeTarget "Techno_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E43ACC29E98B30000919DB /* Debug */,
+				74E43ACD29E98B30000919DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
