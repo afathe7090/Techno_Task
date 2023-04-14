@@ -10,7 +10,7 @@ import XCTest
 final class Techno_TaskTests: XCTestCase {
     
     func test_iSCircleCi_WorkingWithTests() {
-        let x = 1
+        var x: Int?
         XCTAssertNotNil(x)
     }
 }
